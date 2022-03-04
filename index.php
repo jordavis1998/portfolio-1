@@ -3,7 +3,7 @@
 function updateFromPOST() {
     // Does the value exist?
     if(isset($_POST["submit"])) {
-      echo $_POST['log'];
+      echo $_POST["log"];
 
     // Get the current contents
     $currentContent = readLog();
