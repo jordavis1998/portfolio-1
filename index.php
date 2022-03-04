@@ -9,21 +9,21 @@ function updateFromPOST() {
     if(isset($_POST["submit"])) {
       echo $_POST["log"];
 
-    // Get the current contents
-    $currentContent = readLog();
+    // // Get the current contents
+    // $currentContent = readLog();
     
-    // Add a <br> between content
-    $currentContent = $currentContent . "<br>" . $_POST["log"];
+    // // Add a <br> between content
+    // $currentContent = $currentContent . "<br>" . $_POST["log"];
     
-    // Update the file
-    updateLog($currentContent);
+    // // Update the file
+    // updateLog($currentContent);
     }
   }
 ?>
 <body>
   <p>Please share your thoughts!</p>
   <form action="index.php" method="POST">
-    <textarea name="log" rows="10" cols="50"></textarea>
+    <input type="text" name="log" rows="10" cols="50"></input>
     <input type="submit" name="submit"></input>
   </form>
 </body>
