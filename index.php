@@ -2,7 +2,8 @@
 // Update log from POST
 function updateFromPOST() {
     // Does the value exist?
-    if(isset($_POST["log"])) {
+    if(isset($_POST["submit"])) {
+      echo $_POST['log'];
 
     // Get the current contents
     $currentContent = readLog();
