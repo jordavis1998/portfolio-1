@@ -23,8 +23,11 @@ function updateFromPOST() {
 <body>
   <p>Please share your thoughts!</p>
   <form action="index.php" method="POST">
-    <input type="text" name="log" rows="10" cols="50"></input>
-    <input type="submit" name="submit"></input>
+      <textarea name="log" rows="10" cols="50"></textarea>
+    <br/>
+    <p>
+      <input type="submit" name="submit"></input>
+    </p>
   </form>
 </body>
 </html>
