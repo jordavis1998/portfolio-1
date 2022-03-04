@@ -10,13 +10,13 @@ function updateFromPOST() {
       echo $_POST["log"];
 
     // Get the current contents
-    // $currentContent = readLog();
+    $currentContent = readLog();
     
-    // // Add a <br> between content
-    // $currentContent = $currentContent . "<br>" . $_POST["log"];
+    // Add a <br> between content
+    $currentContent = $currentContent . "<br>" . $_POST["log"];
     
-    // // Update the file
-    // updateLog($currentContent);
+    // Update the file
+    updateLog($currentContent);
     }
   }
 ?>
