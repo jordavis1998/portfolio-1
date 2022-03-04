@@ -1,6 +1,7 @@
 <html>
   <head>
       <h1>Welcome to Your Blog!</h1>
+      <p>Please share your thoughts!</p>
   </head>
 <?php
 // Update log from POST
@@ -21,7 +22,6 @@
   
 ?>
 <body>
-  <p>Please share your thoughts!</p>
   <form action="index.php" method="POST">
       <textarea name="log" rows="10" cols="50"></textarea>
     <br/>
