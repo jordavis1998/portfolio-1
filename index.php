@@ -4,7 +4,7 @@
   </head>
 <?php
 // Update log from POST
-function updateFromPOST() {
+// function updateFromPOST() {
     // Does the value exist?
     if(isset($_POST["submit"])) {
       echo $_POST["log"];
@@ -18,7 +18,7 @@ function updateFromPOST() {
     // // Update the file
     // updateLog($currentContent);
     }
-  }
+  
 ?>
 <body>
   <p>Please share your thoughts!</p>
